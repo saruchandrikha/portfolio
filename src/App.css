@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+header ul li{
+    @apply px-3;
+}
+.bg-primary{
+    background-color:#112e42;
+    
+}
+.bg-secondary{
+    background-color:#081b29;
+}
+.main{
+    text:#00abf0;
+}
+
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-gray-600 w-full h-1/4;
+
+}
+.mobile-nav li {
+    @apply w-full h-full text-center ;
+}
+.project-desc {
+    @apply absolute left-0 right-0 bottom-[25px] top-0 bg-gray-300 opacity-0 duration-500 hover:opacity-100;
+}
